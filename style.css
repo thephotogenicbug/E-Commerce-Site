@@ -1,0 +1,87 @@
+.banner{
+    height:450px;
+    padding:50px;
+    margin-left: 25px;
+    margin-right: 25px;  
+    font-weight: bold;
+    background-image: url('images/1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#products{
+    margin-top:25px;
+    margin-left:50px;
+    width:300px;
+}
+
+
+
+.product-ribbon {
+    position: absolute;
+    top: 5px
+}
+
+
+
+.product-ribbon.product-ribbon-right {
+    right: 110px
+}
+
+.product-ribbon.no-space {
+    top: 0
+}
+
+.product-ribbon.no-space.product-ribbon-left {
+    left: 0
+}
+
+.product-ribbon.no-space.product-ribbon-right {
+    right: 0
+}
+
+.product-ribbon.product-ribbon--style-1 {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: orange;
+    text-align: center;
+    line-height: 48px;
+    font-size: 11px;
+    z-index: 10;
+    font-weight: bold;
+}
+#hot-deals{
+    margin-left: 50px;
+    margin-top:20px
+}
+
+
+#cards{
+    margin-top:55px;
+    margin-left:15px;
+}
+
+
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+
+  #lblCartCount {
+      font-size: 12px;
+      background: #ffae00;
+      color: #fff;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+  }
